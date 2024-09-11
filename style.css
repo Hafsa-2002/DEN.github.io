@@ -1,0 +1,51 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(112, 211, 211);
+}
+header {
+    background-color: #333;
+     color: #fff;
+     padding: 1em;
+     text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+nav li {
+    margin: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+section{
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgb(0,0,0.1);
+}
+h1{
+    color: #333;
+}
+p{
+    color: #666;
+}
+footer{
+    background-color: gainsboro;
+    color: #0c0808;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
